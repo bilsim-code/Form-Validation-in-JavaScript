@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(246, 234, 213);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main{
+    background: linear-gradient(128deg, #0f0, #333);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px  #000;
+    max-width: 80%;
+}
+
+@media(max-width: 430px) {
+    main {
+        max-width: 100%
+    }
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+#submit {
+    display: block;
+    margin: .5rem auto;
+    background: rgb(18, 17, 14);
+    color: wheat;
+}
+
+#nameError {
+    color: #f00;
+}
+
